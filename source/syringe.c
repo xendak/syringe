@@ -34,6 +34,9 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+/* add vc2022 small hack */
+#pragma comment(lib, "crypt32.lib")
+
 #include <Windows.h>
 #include <WinCrypt.h>
 #include <conio.h>
